@@ -33,7 +33,7 @@ import { type GalleryProps } from './types';
 import { getScrollPosition } from '../../commons/utils/getScrollPosition';
 
 const minScale = 1;
-const config = { duration: 300, easing: Easing.linear };
+const config = { duration: 180, easing: Easing.out(Easing.cubic) };
 
 type GalleryGestureHandlerProps = {
   length: number;
